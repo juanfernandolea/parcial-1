@@ -1,9 +1,9 @@
 package com.biblioteca;
 public class LibroTextoUNIAJC extends LibroTexto {
 private String facultad;
-public LibroTextoUNIAC() {
+public LibroTextoUNIAJC () {
 }
-public LibroTextoUNIAC(String titulo, String autor, int numeroEjemplares, int numeroPrestados, String curso, String facultad) {
+public LibroTextoUNIAJC(String titulo, String autor, int numeroEjemplares, int numeroPrestados, String curso, String facultad) {
 super(titulo, autor, numeroEjemplares, numeroPrestados, curso);
 this.facultad = facultad;
 }
