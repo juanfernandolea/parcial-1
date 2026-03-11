@@ -60,4 +60,29 @@ public int ejemplaresDisponibles() {
     return numeroEjemplares - numeroPrestados;
 }
 
+### EJECUCIÓN
+
+=== SISTEMA DE BIBLIOTECA ===
+Ingrese el título del libro: CIEN AÑOS DE SOLEDAD
+Ingrese el autor del libro: GABRIEL GARCIA MARQUEZ
+Ingrese número de ejemplares: 100
+Ingrese número de libros prestados: 12
+
+Libro creado:
+Titulo: CIEN A?OS DE SOLEDAD
+Autor: GABRIEL GARCIA MARQUEZ
+Ejemplares: 100
+Prestados: 12
+
+Intentando realizar un préstamo...
+Préstamo realizado correctamente.
+
+Estado del libro:
+Titulo: CIEN A?OS DE SOLEDAD
+Autor: GABRIEL GARCIA MARQUEZ
+Ejemplares: 100
+Prestados: 13
+
+
+## Nota: he entendido mucho mejor esta vez estos ejercicios, gracias profe por tenerme paciencia
 Este método nos puede ayudar a inhabilitar o habilitar préstamos en dado caso de que queden o no queden libros disponibles según se haya escogido.
